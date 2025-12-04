@@ -119,22 +119,29 @@ export default function App() {
                 <select
                   value={selectedLanguage}
                   onChange={(e) => setSelectedLanguage(e.target.value)}
-                  className="px-4 py-1.5 text-sm bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-xl border-0 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer focus:ring-4 focus:ring-green-200 focus:outline-none"
+                  className="pl-4 py-2 text-sm bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-xl border-0 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer focus:ring-4 focus:ring-green-200 focus:outline-none appearance-none"
+                  style={{ 
+                    paddingRight: '2.5rem',
+                    backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 8l4 4 4-4'/%3e%3c/svg%3e"), linear-gradient(to right, rgb(34 197 94), rgb(5 150 105))`,
+                    backgroundPosition: 'right 0.75rem center, center',
+                    backgroundSize: '1.25em 1.25em, cover',
+                    backgroundRepeat: 'no-repeat, no-repeat'
+                  }}
                 >
-                  <option value="es">🇪🇸 Spanish</option>
-                  <option value="fr">🇫🇷 French</option>
-                  <option value="de">🇩🇪 German</option>
-                  <option value="zh">🇨🇳 Chinese</option>
-                  <option value="hi">🇮🇳 Hindi</option>
-                  <option value="ja">🇯🇵 Japanese</option>
-                  <option value="ar">🇸🇦 Arabic</option>
-                  <option value="pt">🇧🇷 Portuguese</option>
-                  <option value="ru">🇷🇺 Russian</option>
-                  <option value="it">🇮🇹 Italian</option>
-                  <option value="ko">🇰🇷 Korean</option>
-                  <option value="nl">🇳🇱 Dutch</option>
-                  <option value="tr">🇹🇷 Turkish</option>
-                  <option value="pl">🇵🇱 Polish</option>
+                  <option value="es" className="bg-white text-gray-800 py-2">🇪🇸 Spanish</option>
+                  <option value="fr" className="bg-white text-gray-800 py-2">🇫🇷 French</option>
+                  <option value="de" className="bg-white text-gray-800 py-2">🇩🇪 German</option>
+                  <option value="zh" className="bg-white text-gray-800 py-2">🇨🇳 Chinese</option>
+                  <option value="hi" className="bg-white text-gray-800 py-2">🇮🇳 Hindi</option>
+                  <option value="ja" className="bg-white text-gray-800 py-2">🇯🇵 Japanese</option>
+                  <option value="ar" className="bg-white text-gray-800 py-2">🇸🇦 Arabic</option>
+                  <option value="pt" className="bg-white text-gray-800 py-2">🇧🇷 Portuguese</option>
+                  <option value="ru" className="bg-white text-gray-800 py-2">🇷🇺 Russian</option>
+                  <option value="it" className="bg-white text-gray-800 py-2">🇮🇹 Italian</option>
+                  <option value="ko" className="bg-white text-gray-800 py-2">🇰🇷 Korean</option>
+                  <option value="nl" className="bg-white text-gray-800 py-2">🇳🇱 Dutch</option>
+                  <option value="tr" className="bg-white text-gray-800 py-2">🇹🇷 Turkish</option>
+                  <option value="pl" className="bg-white text-gray-800 py-2">🇵🇱 Polish</option>
                 </select>
               </div>
               <div className="h-80 bg-gradient-to-br from-gray-50 to-emerald-50/30 border-2 border-dashed border-gray-300 rounded-2xl p-4 shadow-inner overflow-y-auto">
