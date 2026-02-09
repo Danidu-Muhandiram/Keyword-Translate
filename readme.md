@@ -244,15 +244,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👤 Author
-
-**Danidu Muhandiram**
-- GitHub: [@Danidu-Muhandiram](https://github.com/Danidu-Muhandiram)
-
 ## 🙏 Acknowledgments
 
 - [translate-google](https://github.com/shikar/translate-google) - Free Google Translate API
@@ -260,13 +251,19 @@ This project is licensed under the MIT License.
 - [Vite](https://vitejs.dev/) - Build tool
 - [Vercel](https://vercel.com/) - Hosting platform
 
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👤 Author
+Built by **Danidu Muhandiram** ([@Danidu-Muhandiram](https://github.com/Danidu-Muhandiram))
+
 ## 📊 Project Stats
+
+⭐ **If you found this project helpful, please give it a star!** ⭐
 
 ![GitHub stars](https://img.shields.io/github/stars/Danidu-Muhandiram/Keyword-Translator?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Danidu-Muhandiram/Keyword-Translator?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/Danidu-Muhandiram/Keyword-Translator)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Danidu-Muhandiram/Keyword-Translator)
 
----
-
-⭐ **If you found this project helpful, please give it a star!** ⭐
